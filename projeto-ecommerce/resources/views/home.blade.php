@@ -25,7 +25,7 @@
     <a class="navbar-brand">Busque aqui</a>
     <form class="d-flex">
       <input class="form-control me-2" type="search" placeholder="" aria-label="Buscar">
-      <button class="btn btn-outline-success" type="submit">Search</button>
+      <button class="btn btn-outline-success" type="submit">Buscar</button>
     </form>
   </div>
 </nav>
