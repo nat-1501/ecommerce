@@ -45,6 +45,7 @@
                     <img src="{{ asset('imagens/01.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Sapato Mocassim</h6>
+                        <p class="card-text">R$69,90</p>
                         <a href="#" type="button" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
 
@@ -56,6 +57,7 @@
                     <img src="{{ asset('imagens/02.jpg') }}" class="card-img-top"/>
                     <div class="card-body">
                         <h6 class="card-title">Sapato Frente aberta</h6>
+                        <p class="card-text">R$89,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -66,6 +68,7 @@
                     <img src="{{ asset('imagens/3.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Sapato Bocassim</h6>
+                        <p class="card-text">R$75,99</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -77,6 +80,7 @@
                     <img src="{{ asset('imagens/04.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Sapato Salto Baixo Fino Raro</h6>
+                        <p class="card-text">R$149,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -88,6 +92,7 @@
                     <img src="{{ asset('imagens/05.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Salto Eférna</h6>
+                        <p class="card-text">R$89,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -99,6 +104,7 @@
                     <img src="{{ asset('imagens/6.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Tenis Feminino Branco</h6>
+                        <p class="card-text">R$269,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -110,6 +116,7 @@
                     <img src="{{ asset('imagens/08.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Rasteira Abacaxi</h6>
+                        <p class="card-text">R$169,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -121,6 +128,7 @@
                     <img src="{{ asset('imagens/10.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Sapato Fivela</h6>
+                        <p class="card-text">R$59,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -132,6 +140,7 @@
                     <img src="{{ asset('imagens/13.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Sapato Salto Alto Preto</h6>
+                        <p class="card-text">R$139,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -143,6 +152,7 @@
                     <img src="{{ asset('imagens/15.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Sapato Baixo Branco</h6>
+                        <p class="card-text">R$99,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -154,6 +164,7 @@
                     <img src="{{ asset('imagens/14.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Sapato Frente aberta Bege</h6>
+                        <p class="card-text">R$69,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -165,6 +176,7 @@
                     <img src="{{ asset('imagens/12.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Sapato Alto Preto</h6>
+                        <p class="card-text">R$169,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -176,6 +188,7 @@
                     <img src="{{ asset('imagens/16.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Tenis Amarração Branco</h6>
+                        <p class="card-text">R$349,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -186,6 +199,7 @@
                     <img src="{{ asset('imagens/17.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Sandalia Amarração Amarela </h6>
+                        <p class="card-text">R$199,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -197,6 +211,7 @@
                     <img src="{{ asset('imagens/20.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Sapato Alto Bloco Marrom </h6>
+                        <p class="card-text">R$99,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -208,6 +223,7 @@
                     <img src="{{ asset('imagens/21.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Sapato Alto Pata Aberta </h6>
+                        <p class="card-text">R$39,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -218,6 +234,7 @@
                     <img src="{{ asset('imagens/22.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Sapato Salto Alto Bege</h6>
+                        <p class="card-text">R$129,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -228,6 +245,7 @@
                     <img src="{{ asset('imagens/23.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Salto Fino Preto</h6>
+                        <p class="card-text">R$289,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -239,6 +257,7 @@
                     <img src="{{ asset('imagens/24.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Bota Tratorada </h6>
+                        <p class="card-text">R$359,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -250,6 +269,7 @@
                     <img src="{{ asset('imagens/25.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Bota Calcanhar</h6>
+                        <p class="card-text">R$139,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -260,6 +280,7 @@
                     <img src="{{ asset('imagens/26.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Bota Neon</h6>
+                        <p class="card-text">R$279,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
@@ -270,6 +291,7 @@
                     <img src="{{ asset('imagens/27.jpg') }}" class="card-img-top" />
                     <div class="card-body">
                         <h6 class="card-title">Bota Fivela </h6>
+                        <p class="card-text">R$279,90</p>
                         <a href="#" class="btn btn-outline-dark">Adicionar item</a>
                     </div>
                 </div>
