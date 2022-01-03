@@ -14,7 +14,7 @@ class CreateItensPedidosTable extends Migration
     public function up()
     {
         Schema::create('itens_pedidos', function (Blueprint $table) {
-            $table->increments();
+            $table->increments("id");
 
             $table->integer("quantidade");
             $table->decimal("valor", 10,2);
