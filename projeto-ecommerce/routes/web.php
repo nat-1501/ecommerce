@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controller\ProdutoController;
+use App\Http\Controller\ClienteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::match(['get','post'], '/', [ ProdutoController::class, 'index']) 
+    ->name('home');
+Route::match(['get','post'], '/categoria', [ ProdutoController::class, 'categoria'])
+    ->name('categoria');
+Route::match(['get','post'], '/cadastrar', [ ClienteController::class, 'cadastrar'])       
+    ->name('cadastrar');
