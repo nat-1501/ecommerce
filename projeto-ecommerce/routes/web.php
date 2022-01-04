@@ -21,3 +21,7 @@ Route::match(['get','post'], '/categoria', [ ProdutoController::class, 'categori
     ->name('categoria');
 Route::match(['get','post'], '/cadastrar', [ ClienteController::class, 'cadastrar'])       
     ->name('cadastrar');
+Route::match(['get','post'], '/pedidos', [ ClienteController::class, 'pedidos'])       
+    ->name('pedidos');    
+
+

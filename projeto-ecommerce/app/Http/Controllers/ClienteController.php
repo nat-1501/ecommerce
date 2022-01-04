@@ -10,6 +10,12 @@ class ClienteController extends Controller
         $data = [];
 
         return view("cadastrar", $data);
-
     }
+
+    public function pedidos(Request $request){
+        $data = [];
+
+        return view("pedidos", $data);
+    }    
+
 }

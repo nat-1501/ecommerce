@@ -13,10 +13,10 @@
         <a href="#" class="navbar-brand">NatiShoes</a>
         <div class="collapse navbar-collapse">
             <div class="navbar-nav">
-                <a class="nav-link" href="#">Home</a>
-                <a class="nav-link" href="#">Categorias</a>
-                <a class="nav-link" href="#">Cadastrar</a>
-                <a class="nav-link" href="#">Pedidos</a>
+                <a class="nav-link" href="{{route('home')}}">Home</a>
+                <a class="nav-link" href="{{route('categoria')}}">Categorias</a>
+                <a class="nav-link" href="{{route('cadastrar')}}">Cadastrar</a>
+                <a class="nav-link" href="{{route('pedidos')}}">Pedidos</a>
             </div>
         </div>
 
