@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ProdutoControler extends Controller
+class ProdutoController extends Controller
 {
     public function index(Request $request){
         $data = [];
@@ -13,7 +13,7 @@ class ProdutoControler extends Controller
     }
 
     public function categoria(Request $request){
-        $data=[];
+        $data= [];
 
         return view("categoria", $data);
 
