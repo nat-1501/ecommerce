@@ -20,6 +20,7 @@ class RModel extends Model
 
     public function save(array $options = []){
         try{
+            
             if(!$this->beforeSave()){
                 return false;
             }
