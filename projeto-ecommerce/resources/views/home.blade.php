@@ -40,19 +40,22 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-2 mb-2">
-                <div class="card">
-                    <img src="{{ asset('imagens/01.jpg') }}" class="card-img-top" />
-                    <div class="card-body">
-                        <h6 class="card-title">Sapato Mocassim</h6>
-                        <p class="card-text">R$69,90</p>
-                        <a href="#" type="button" class="btn btn-outline-dark">Adicionar item</a>
-                    </div>
+            @if(isset($lista))
+                @foreach($lista as $prod)  
+                    <div class="col-2 mb-2">
+                        <div class="card">
+                            <img src="{{ asset($prod->foto) }}" class="card-img-top" />
+                            <div class="card-body">
+                                <h6 class="card-title">{{ $prod->nome }}</h6>
+                                <p class="card-text">{{ $prod->valor }}</p>
+                                <a href="#" type="button" class="btn btn-outline-dark">Adicionar item</a>
+                            </div>
 
-                </div>
-            </div>   
-            
-       
+                        </div>
+                    </div>
+                @endforeach     
+            @endif
+        </div> 
     </div>
 </body>
 </html>

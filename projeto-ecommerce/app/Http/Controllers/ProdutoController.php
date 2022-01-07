@@ -9,6 +9,11 @@ class ProdutoController extends Controller
     public function index(Request $request){
         $data = [];
 
+        //Buscar todos os produtos
+
+        $listaProdutos = \App\Models\Produto::all();
+        $data["lista"] = $listaProdutos;
+
         return view("home", $data);
     }
 
