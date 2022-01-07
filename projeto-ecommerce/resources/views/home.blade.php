@@ -47,7 +47,7 @@
                             <img src="{{ asset($prod->foto) }}" class="card-img-top" />
                             <div class="card-body">
                                 <h6 class="card-title">{{ $prod->nome }}</h6>
-                                <p class="card-text">{{ $prod->valor }}</p>
+                                <p class="card-text"> R${{ $prod->valor }}</p>
                                 <a href="#" type="button" class="btn btn-outline-dark">Adicionar item</a>
                             </div>
 
