@@ -29,8 +29,8 @@ class ProdutoController extends Controller
         //SELECT * FROM produtos limit 4
         $queryProduto = Produto::limit(4);
 
-        if($idcategoria !=0) {
-            $queryProduto->where("categoria_id", $idcategoria); 
+        if($idcategoria != 0){
+            $queryProduto->where("categoria_id", $idcategoria);   
         }
 
         $listaProdutos = $queryProduto->get();
