@@ -34,7 +34,7 @@ class InsertProducts extends Migration
 
         $prod6 = new \App\Models\Produto(['nome' => 'Tenis Feminino Branco', 'valor' => 269,90 , 'foto' => 'imagens/6.jpg', 'descricao' =>'', 'categoria_id' => $cat->id]);
         $prod6 -> save();
-
+        
         $prod7 = new \App\Models\Produto(['nome' => 'Rasteira Abacaxi', 'valor' => 169,90 , 'foto' => 'imagens/08.jpg', 'descricao' =>'', 'categoria_id' => $cat->id]);
         $prod7 -> save();
 

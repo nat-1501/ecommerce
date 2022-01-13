@@ -6,15 +6,14 @@ use Illuminate\Http\Request;
 use App\Models\Categoria;
 use App\Models\Produto;
 
-
 class ProdutoController extends Controller
-{
+   {
     public function index(Request $request){
         $data = [];
 
         //Buscar todos os produtos
         //SELECT * FROM produtos
-        $listaProdutos = Produto::all();
+        $listaProdutos = Produto::all(); 
         $data["lista"] = $listaProdutos;
 
         return view("home", $data);
